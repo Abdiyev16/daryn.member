@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" href="img/logo%20(1)%202.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <a href="#" class="menu-open d-none">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <a href="#" class="logo">
+                <img src="img/logo%20(3).svg">
+            </a>
+            <a href="#" class="logo-x d-none">
+                <img src="img/logo%20(1)%202.svg">
+            </a>
+            <div class="menu-xs d-flex">
+                <ul class="menu">
+                    <li><a href="#">Курстар</a></li>
+                    <li><a href="#">Курстар</a></li>
+                    <li><a href="#">Курстар</a></li>
+                    <li><a href="#">Курстар</a></li>
+                    <li><a href="#">Курстар</a></li>
+                </ul>
+            </div>
+            <div class="menu-mobile d-none" id="mobile_menu">
+                <ul class="menu-mobile-item">
+                    <li>
+                        <a href="#">Сабақтар</a>
+                    </li>
+                    <li>
+                        <a href="#">Курстар</a>
+                    </li>
+                    <li>
+                        <a href="#">Байқау тесті</a>
+                    </li>
+                    <li>
+                        <a href="#">Анализ</a>
+                    </li>
+                    <li>
+                        <a href="#">Олимпиада</a>
+                    </li>
+                </ul>
+            </div>
+            <ul class="login-check d-flex">
+                <li class="login-xs">
+                    <a href="#">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 5V13M13 9H5M15 17H3C1.895 17 1 16.105 1 15V3C1 1.895 1.895 1 3 1H15C16.105 1 17 1.895 17 3V15C17 16.105 16.105 17 15 17Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Тіркелу</span>
+                    </a>
+                </li>
+                <li class="dropdown-lang">
+                    <button class="btn-plain dropdown-toggle" type="button" id="dropdownLang" data-toggle="dropdown" aria-expanded="false">
+                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.89774 5.31804C6.246 6.6611 11.7533 6.6611 16.1007 5.31804M16.1016 12.6813C11.7533 11.3382 6.246 11.3382 1.89863 12.6813M8.99967 1C13.4279 1 16.9993 4.57141 16.9993 8.99967C16.9993 13.4279 13.4279 16.9993 8.99967 16.9993C4.57141 16.9993 1 13.4279 1 8.99967C1 4.57141 4.57141 1 8.99967 1ZM7.37129 1.94218C4.80251 6.23089 4.80251 11.7693 7.37129 16.058C8.12326 17.314 9.87696 17.314 10.6289 16.058C13.1977 11.7693 13.1977 6.23089 10.6289 1.94218C9.87607 0.686235 8.12326 0.686235 7.37129 1.94218Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>KZ</span>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownLang" x-placement="bottom-start" style="position: absolute; transform: translate3d(306px, 70px, 0px); top: 0; left: 0; will-change: transform;">
+                        <a class="dropdown-item" href="#">RU</a>
+                        <a class="dropdown-item" href="#">KZ</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<section class="member">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="member-caption">
+                    <h1 class="member-title">Daryn Member</h1>
+                    <p>
+                        Daryn Member - это приложение для директоров школ и учителей. Приложение также используется Министерством образования и науки, региональными отделами образования и районными отделами образования.
+                    </p>
+                    <p>
+                        С помощью приложения пользователи могут следовать иерархии. Например, учитель может отслеживать, что его класс изучил и как он прошел тесты. Приложение Daryn Member является незаменимым инструментом для обратной связи ученика и учителя.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="profile">
+                    <div class="profile-caption">
+                        <h2 class="profile-title">Войдите<span> в профиль используя:</span></h2>
+                        <label class="form-label form-label-done">
+                            <span>E-mail </span>
+                            <input type="text">
+                        </label>
+                        <label class="form-label field-password">
+                            <span>Пароль</span>
+                            <input type="password" id="password" class="password-input" aria-autocomplete="list">
+                        </label>
+                        <a href="" class="forget-link">Забыли пароль?</a>
+                        <button class="btn-plain btn-blue-gradient auth-btn">Вход</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<div class="overlay"></div>
+
+<script src="js/libs.min.js"></script>
+
+<script>
+    $('.menu-open').click(function (){
+        $('.menu-mobile').toggleClass ('show');
+        $(this).toggleClass('open');
+        $('html').toggleClass('scroll-locked');
+        $('.overlay').toggleClass('show')
+    });
+
+    $('.overlay').click(function(e){
+        if (!document.getElementById('mobile_menu').contains(e.target)){
+            $('.menu-open').click();
+        }
+    });
+
+</script>
+
+</body>
+</html>

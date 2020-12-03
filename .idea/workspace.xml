@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9202d459-35a2-4f50-8d32-213ed784ccc9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l5bL3qRBp9Zr6rOxE8Zc9RI5ms" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\img" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\fonts" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\slick-slider" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\css" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\js" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\img\icon" />
+      <recent name="C:\Users\maximus\PhpstormProjects\untitled4\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9202d459-35a2-4f50-8d32-213ed784ccc9" name="Default Changelist" comment="" />
+      <created>1606889840278</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606889840278</updated>
+      <workItem from="1606889841339" duration="1711000" />
+      <workItem from="1606891610369" duration="4113000" />
+      <workItem from="1606895783542" duration="1793000" />
+      <workItem from="1606897594036" duration="1791000" />
+      <workItem from="1606899401648" duration="1791000" />
+      <workItem from="1606901224352" duration="1387000" />
+      <workItem from="1606903034820" duration="1650000" />
+      <workItem from="1606904852941" duration="1924000" />
+      <workItem from="1606906862910" duration="1795000" />
+      <workItem from="1606908711473" duration="1797000" />
+      <workItem from="1606910560598" duration="1804000" />
+      <workItem from="1606912382911" duration="1482000" />
+      <workItem from="1606967680837" duration="608000" />
+      <workItem from="1606969730969" duration="1809000" />
+      <workItem from="1606971561279" duration="1810000" />
+      <workItem from="1606973393859" duration="1792000" />
+      <workItem from="1606975218663" duration="1036000" />
+      <workItem from="1606978466277" duration="1868000" />
+      <workItem from="1606980351015" duration="327000" />
+      <workItem from="1606981141957" duration="627000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606971349622">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="108" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606971349622" />
+    <state x="462" y="116" key="FileChooserDialogImpl" timestamp="1606890878657">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="116" key="FileChooserDialogImpl/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606890878657" />
+    <state x="183" y="0" key="SettingsEditor" timestamp="1606889850554">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="183" y="0" key="SettingsEditor/0.0.1366.728/-1920.0.1920.1040@0.0.1366.728" timestamp="1606889850554" />
+  </component>
+</project>

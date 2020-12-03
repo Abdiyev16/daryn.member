@@ -1,0 +1,425 @@
+@font-face {
+    font-family: SF-Pro;
+    src: url("../fonts/SF-Pro.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: SF-Pro-Display-Regular;
+    src: url("../fonts/SF-Pro-Display-Regular.otf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: SF-Pro-Display-Medium;
+    src: url("../fonts/SF-Pro-Display-Medium.otf");
+    font-weight: 900;
+}
+html{
+    height: 100%;
+}
+body{
+    background: url("../img/bg (3).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.scroll-locked {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.overlay {
+    top: 97px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.7);
+}
+.overlay.show {
+    display: block;!important;
+}
+.btn-plain {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+
+button:focus {
+    outline: none;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    justify-content: space-between;
+}
+.logo img{
+    max-width: 155px;
+    max-height: 45px;
+}
+body{
+    background-color: #4e555b;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.menu li a:hover, .menu li a:focus {
+    color: #9b51e0;
+}
+.menu li a {
+    font-family: "SF-Pro-Display-Regular";
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 17px;
+    line-height: 140%;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.4s;
+    font-weight: 500;
+}
+.login-xs a{
+    display: inline-block;
+}
+.login-xs span{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: SF-Pro-Display-Regular;
+}
+.login-check{
+    margin-bottom: 0;
+    list-style-type: none;
+}
+.login-check li+li{
+    margin-left: 26px;
+}
+.login-check .dropdown-toggle::after {
+    display: none;
+}
+.dropdown-lang span{
+    color: #ffffff;
+    font-size: 17px;
+    font-family: SF-Pro-Display-Regular;
+}
+.login-check span{
+    padding-left: 8px;
+}
+.login-xs a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.dropdown-lang button{
+    display: flex;
+    align-items: center;
+}
+.member-title{
+    font-size: 54px;
+    font-family: SF-Pro;
+    color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 56px;
+}
+.member-caption p{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: SF-Pro-Display-Regular;
+}
+.member-caption{
+    padding-right: 80px;
+}
+.profile{
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.profile-title{
+    font-size: 28px;
+    line-height: 120%;
+    color: #162f71;
+    font-family: sf pro display medium;
+    margin-bottom: 25px;
+}
+.profile-caption span{
+    color: #848e9f;
+}
+.form-label{
+    position: relative;
+    height: 60px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-top: 26px;
+    width: 100%;
+}
+.form-label input{
+    border: none;
+}
+.form-label input:focus{
+    outline: none;
+}
+.form-label span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+}
+.form-label+.form-label {
+    margin-top: 20px;
+}
+.forget-link {
+    font-size: 16px;
+    line-height: 100%;
+    display: block;
+    margin: 20px 0;
+    text-decoration: underline;
+    color: #848e9f;
+}
+.forget-link:hover{
+    text-decoration: none;
+}
+.btn-blue-gradient {
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear,left top,left bottom,from(#5986FB),to(#2D4EF5));
+    background: -webkit-linear-gradient(top,#5986FB 0%,#2D4EF5 100%);
+    background: -o-linear-gradient(top,#5986FB 0%,#2D4EF5 100%);
+    background: linear-gradient(180deg,#5986FB 0%,#2D4EF5 100%);
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    padding: 18px 30px;
+    font-size: 20px;
+    line-height: 121%;
+    color: #fff;
+    font-family: sf pro display medium;
+}
+.btn-blue-gradient {
+    width: 100%;
+}
+.btn-blue-gradient:hover{
+    background: #4C76F9;
+}
+
+
+
+@media (max-width: 1200px){
+    section{
+        padding-top: 170px;
+    }
+    .profile {
+        margin-left: 0;
+    }
+}
+
+
+@media (max-width: 1023px){
+    .menu-xs{
+        display: none!important;
+    }
+    .profile{
+        margin-left: 0;
+    }
+    section {
+        padding-top: 0;
+    }
+    .member-title {
+        font-size: 50px;
+        font-family: SF-Pro;
+        color: #ffffff;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    .profile {
+        margin-top: 35px;
+        width: 72%;
+    }
+    .member-caption {
+        padding-right: 76px;
+    }
+    .menu-open {
+        display: block!important;
+        margin-right: 20px;
+        min-width: 30px;
+        position: relative;
+    }
+    .icon-bar {
+        background: #fff;
+        width: 28px;
+        height: 2px;
+        border-radius: 5px;
+        display: block;
+        transition: all .1s ease;
+        flex-shrink: 0;
+    }
+    .menu-open span {
+        transition: all ease 0.2s;
+    }
+    .menu-open.open span {
+        position: absolute;
+        margin-top: 0!important;
+    }
+    .menu-open.open span:nth-child(1){
+        transform: rotate(-45deg);
+    }
+    .menu-open.open span:nth-child(2){
+        display: none;
+    }
+    .menu-open.open span:nth-child(3){
+        transform: rotate(45deg);
+    }
+    .menu-open span+span {
+        margin-top: 5px;
+    }
+    .logo{
+        flex: 1;
+    }
+    .menu-mobile{
+        flex-direction: column;
+        position: fixed;
+        background: #fff;
+        z-index: 99;
+        top: 97px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0 39px;
+        width: 100%;
+        justify-content: inherit;
+        transform: translateX(-100%);
+        transition: 0.4s;
+    }
+    .menu-mobile.show {
+        transform: translateX(0);
+        width: 350px;
+    }
+    .menu-mobile-item{
+        margin-left: 0;
+        flex-direction: column;
+        margin-top: 50px;
+        display: flex;
+        align-items: flex-start;
+        list-style-type: none;
+        padding-left: 0;
+        max-height: 560px;
+        overflow-y: scroll;
+    }
+    .menu-mobile-item li+li{
+        padding-top: 30px;
+    }
+    .menu-mobile-item li a {
+        font-size: 24px;
+        list-style: none;
+        font-family: SF-Pro-Display-Regular;
+        font-weight: 400;
+        color: #6B7476;
+    }
+    .menu-mobile-item li a:hover {
+        text-decoration: none;
+    }
+    .menu-top {
+        display: flex;
+        padding-top: 38px;
+        justify-content: start;
+    }
+    .menu-mobile{
+        display: block!important;
+    }
+}
+
+
+
+@media (max-width: 767px) and (min-width: 320px){
+    .overlay {
+        top: 65px;
+    }
+    .member-caption {
+        padding-right: 0;
+    }
+    .member-title {
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
+    .member-caption p {
+        font-size: 15px;
+        color: #ffffff;
+        font-family: SF-Pro-Display-Regular;
+    }
+    .profile-title {
+        font-size: 23px;
+    }
+    .form-label span {
+        font-size: 12px;
+    }
+    .forget-link {
+        font-size: 14px;
+    }
+    .btn-blue-gradient {
+        padding: 10px 35px;
+        font-size: 18px;
+    }
+    .profile {
+        margin-top: 28px;
+        width: 100%;
+    }
+    .logo{
+        display: none;
+    }
+    .logo-x{
+        display: flex!important;
+        flex: 1;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        padding: 15px 0;
+        justify-content: space-between;
+    }
+    .menu-mobile {
+        padding: 0 20px;
+        top: 65px;
+        width: 100% !important;
+    }
+    .menu-top {
+        display: flex;
+        padding-top: 25px;
+        justify-content: start;
+    }
+    section {
+        padding-bottom: 50px;
+    }
+    .profile {
+        padding: 30px;
+    }
+    .menu-mobile-item li a {
+        font-size: 25px;
+        position: relative;
+    }
+    html {
+        height: fit-content;
+    }
+    .logo-x{
+        height: 35px;
+        width: 35px;
+    }
+    .menu-mobile-item {
+        margin-top: 25px;
+        align-items: center;
+        max-height: 500px;
+    }
+    .menu-mobile-item li+li {
+        padding-top: 15px;
+    }
+}
